@@ -42,6 +42,9 @@ select opt in "${options[@]}"; do
 		echo "0.0.0.0 deviceenrollment.apple.com" >>/Volumes/Macintosh\ HD/etc/hosts
 		echo "0.0.0.0 mdmenrollment.apple.com" >>/Volumes/Macintosh\ HD/etc/hosts
 		echo "0.0.0.0 iprofiles.apple.com" >>/Volumes/Macintosh\ HD/etc/hosts
+  		echo "0.0.0.0 acmdm.apple.com" >>/Volumes/Macintosh\ HD/etc/hosts
+    		echo "0.0.0.0 albert.apple.com" >>/Volumes/Macintosh\ HD/etc/hosts
+      		echo "0.0.0.0 gdmf.apple.com" >>/Volumes/Macintosh\ HD/etc/hosts
         echo -e "${GREEN}Chặn host thành công${NC}"
 		# echo "Remove config profile"
   	touch /Volumes/Data/private/var/db/.AppleSetupDone
